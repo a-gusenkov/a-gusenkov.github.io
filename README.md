@@ -1,2 +1,3 @@
 # a-gusenkov.github.io
-My portfolio Website
+My Portfolio Website
+Created with HTML/CSS and the Bootstrap Framework.
