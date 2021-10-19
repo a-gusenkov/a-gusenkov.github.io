@@ -1,0 +1,112 @@
+<!--Anastasia Gusenkov CISC 3141
+Internal CSS Line: 9
+InLine CSS Line: 83-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="page_style.css">
+        <!--Internal CSS-->
+
+        <style>
+            .copyright {
+                background-color: rgb(238, 237, 237);
+                padding:1em;
+                display: flex ;  
+                justify-content: center;
+            }
+            .end-link{
+                padding-left:.7em;
+                padding-right:.7em;
+                color: rgb(129, 126, 126);
+            }
+        </style>
+
+    </head>
+    <body>
+    
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto left-menu">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                        <a class="navbar-brand" ><img src="./image/MASKLOGO.png" width="150" height="30" alt=""> </a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="product">
+            <img src="./image/mask.png" class="img-fluid center" alt="Responsive image">
+            <h1>Sleep More. Sleep Better.</h1>
+            <button type="button" class="btn btn-light">Get SOMNUM</button>
+            <pre class="learn-more"> Learn More Below</pre>
+        </div>
+
+        <div class="benefit">
+            <h2> Made For You</h2>
+            <p> Designed by the best researchers in the sleep field.Our sleek design is made by keeping the everyday busybody in mind.</p>
+            <table class="table-center">
+                <tr>
+                  <th><img src="./image/1.png" class="img-fluid table-image" ></th>
+                  <th><img src="./image/2.png" class="img-fluid table-image"></th>
+                  <th><img src="./image/3.png" class="img-fluid table-image"></th>
+                </tr>
+                <tr>
+                  <td>Fall asleep faster.</td>
+                  <td>Feel more centered.</td>
+                  <td>Be more energized.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="news">
+            <h2>News Reviews</h2>
+            <p>Here's what the toughest critics have to say!</p>
+            <div class="container">
+                <div class="row">
+                  <div class="col"><img src="./image/vice-1.png" class="img-fluid news-image" ></div>
+
+                  <!--INLINE CSS IS IN THE H4 TAGS-->
+                  <div class="col"><h4 style="font-weight: 700;">"You will never sleep without this again!"</h4></p></div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <ol>
+                            <li><h4 style="font-weight: 700;">"Affordable and effective. Will make you fall asleep right away!"</h4></li>
+                            <li><h4 style="font-weight: 700;">"The latest in sleep technology."</h4></li>
+                        </ol>
+                    </div>
+                    <div class="col-4"><img src="./image/nyt.png" class="img-fluid news-image"></div>
+                  </div>
+              </div>
+        </div>
+        
+        <footer>
+
+            <div class="copyright">
+                <p>@2021 A.Gusenkov inc. All rights reserved.</p>
+                <a class="end-link" href="#">Terms of Service</a>
+                <a class="end-link" href="#">Privacy Policy</a>
+                <a class="end-link" href="#"> Contact Us</a>
+            
+        </footer>
+
+    </body>
+</html>
