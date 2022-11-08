@@ -4,15 +4,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="portfolio_style.css">
         <title>Anastasia Gusenkov</title>
-        <script>
-            function hover(element) {
-                element.setAttribute('src', './images/change.png');
-            }
 
-            function unhover(element) {
-                 element.setAttribute('src', './images/origi.png');
-            }
-        </script>
     </head>
     <body>  
 
@@ -30,23 +22,28 @@
             <ul class="navbar-nav ml-auto">
 
 
-                <li class="nav-item float-right">
-                <a class="nav-link" href="#intro">About Me
-            
+                <!-- <li class="nav-item float-right">
+                <a class="nav-link" href="index.html">About Me
                 </a>
                 </li>
                 <li class="nav-item float-right">
-                <a class="nav-link" href="#expEdu">Education/Experience</a>
+                <a class="nav-link" href="exp.html">Education/Experience</a>
                 </li>
                 <li class="nav-item float-right">
-                <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item float-right">
-                <a class="nav-link" href="#graphDesign">Graphic Design</a>
+                <a class="nav-link" href="proj.html">Projects</a>
                 </li>
                 <li class="nav-item f">
                     <a class="nav-link" href="#contact">Contact Me</a>
-                </li>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link " href="#uiux">UI/UX Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#logodesign">Logo Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#softdevproj">Software Projects</a>
+                  </li>
 
             </ul>
 
@@ -54,203 +51,59 @@
     </div>
     </nav>
     
-   
-
- 
-        <div class="intro" id="intro">
-            <br/>
-            <div class="container about"> 
-                <div class="row">
-
-                    <div class="textAbout col-lg">
-                        <h2 class="yellow">Hello There!</h2>
-                        
-                        <p class="lead " id="contact">
-                        I’m Anastasia Gusenkov and I’m a senior at the CUNY Macaulay Honors College at Brooklyn College majoring in Computer Science and Multimedia Computing. I’m the proud President of the largest CS Club in CUNY and the President and Co-Founder of the Macaulay D&D Guild. 
-                        Currently I'm a full-stack web development fellow at CUNY Tech Prep, a selective JavaScript program for CUNY students, where I’m working on a portfolio building tool called WeBuilder. My goal for this project is to allow people to feel confident in their skills as they start their journey in the tech industry.
-                        </p>
-                        <div class="contact" >
-                            <h4>Contact Me:</h4>
-                            <a href="https://github.com/a-gusenkov" target="_blank"><img src="./images/git.png" class="img-fluid gitImg"></a>
-                            <a href="https://www.linkedin.com/in/anastasia-gusenkov/" target="_blank"><img src="./images/link.png" class="img-fluid lnkImg"></a>
-                            <p class="lead email">anastasiagusenkov1@gmail.com</p>
-                        </div>
-
-                    </div>
-
-                    <div class="imageAbout col-lg">
-                    <img src="./images/origi.png" class="img-fluid" onmouseover="hover(this);" onmouseout="unhover(this);" alt="My Photo" >
-                    </div>
-
-                </div>
-                <img src="images/line.png" class="img-fluid lineImg">
-        </div>
-        </div>
-
-
-       <div class="exp" id="expEdu">
-        <h1 class="titl yellow">Education and Experience</h1>
-        
-        <div class="container"> 
-            <div class="row">
-                <h3>Education</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-1">
-                    <img src="./images/school.png" class="img-fluid ">
-                </div>
-                <div class="col-lg-11">
-                    
-                    <p class="schoolT">Macaulay Honors College at Brooklyn College</p>
-                    <span class="rightSide"> May 2022</span>
-                    <p class="schoolD">Bachelor of Science, Computer Science and Multimedia Computing, GPA:3.7</p>
-                    
-                    <p class="edu">Relevant Coursework:</p>
-                    <p class="edu">JAVA Programming, Multimedia Computing, Modern Programming Techniques, Discrete Structures, Data Structures, Computer Architecture, Introduction to Digital Art, Analysis of Algorithms, Operating Systems, Design & Implementation of Large-Scale Applications, Programming Paradigms in C++</p>
-                    <span class="thumb">Java</span>
-                    <span class="thumb">C++</span>
-                    <span class="thumb">OS</span>
-                    <span class="thumb">Data Structures</span>
-                    <span class="thumb">Algorithms</span>
-                    <span class="thumb">Digital Design</span>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="container"> 
-            <div class="row">
-                <h3>Experience</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-1">
-                    <img src="./images/ctp.jpg" class="img-fluid ">
-                </div>
-                <div class="col-lg-11">
-                    
-                    <p class="schoolT">Software Development Fellow</p>
-                    <span class="rightSide"> Jul 2021 - Present</span>
-                    <p class="schoolD">CUNY Tech Prep</p>
-                    
-                    <ul class="edu">
-                        <li>Selected for a technical training program, as one of 183 students out of 400+ applicants.</li>
-                        <li>Learn in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test-driven development, and CI/CD.</li>
-                    </ul>
-                    <span class="thumb">HTML/CSS</span>
-                    <span class="thumb">JavaScript</span>
-                    <span class="thumb">React</span>
-                    <span class="thumb">Node.js</span>
-                    <span class="thumb">Express.js</span>
-                    <span class="thumb">PostgreSQL</span>
-                    <span class="thumb">Git/GitHub</span>
-                </div>
-                <div class="row">
-                    <div class="col-lg-1">
-                        <img src="./images/rf.png" class="img-fluid ">
-                    </div>
-                    <div class="col-lg-11">
-                        
-                        <p class="schoolT">Assistant of Instructional Service Manager</p>
-                        <span class="rightSide"> Jun 2021 - Present</span>
-                        <p class="schoolD">Research Foundation of CUNY</p>
-                        
-                        <ul class="edu">
-                            <li>Assist in preparing and onboarding 100+ tutors with NYC DOE schools for CUNY Tutor Corps over the Summer 2021 and Fall 2021 semesters.</li>
-                            <li>Collected, organized, and analyzed tutor data to identify the effectiveness of schedule and school placement to maximize the number of students receiving tutoring.</li>
-                            <li>Evaluate 40+ tutor applications for the Fall 2021 semester.</li>
-                        </ul>
-                        <span class="thumb">Excel</span>
-                        <span class="thumb">Data Visialization</span>
-                        <span class="thumb">Administration</span>
-                        <span class="thumb">Organization</span>
-                        <span class="thumb">Communication</span>
-                    </div>
-
-
-                    <div class="container"> 
-                        <div class="row">
-                            <h3>Clubs</h3>
-                        </div>
-                    <div class="row">
-                        <div class="col-lg-1">
-                            <img src="./images/CSCLogo.png" class="img-fluid ">
-                        </div>
-                        <div class="col-lg-11">
-                            
-                            <p class="schoolT">President and Executive Board Member</p>
-                            <span class="rightSide"> Jul 2021 - Present</span>
-                            <p class="schoolD">Brooklyn College Computer Science Club</p>
-                            
-                            <ul class="edu">
-                                <li>Leading a team of 4 to strengthen the student body's faculty-student relationship, career-readiness skills, and love of tech.</li>
-                                <li>Organizing and hosting bi-weekly workshops and events with industry professionals to improve technical and professional skills in a variety of Computer Science Fields.</li>
-                            </ul>
-                            <span class="thumb">Leadership</span>
-                            <span class="thumb">Collaboration</span>
-                            <span class="thumb">Decision Making</span>
-                            <span class="thumb">Attention to Details</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-1">
-                            <img src="./images/DDLogo.png" class="img-fluid ">
-                        </div>
-                        <div class="col-lg-11">
-                            
-                            <p class="schoolT">President and Co-Founder</p>
-                            <span class="rightSide"> Jan 2021 - Present</span>
-                            <p class="schoolD">Macaulay Honors D&D Guild</p>
-                            
-                            <ul class="edu">
-                                <li>Leading a team of 7 to encourage meaningful interactions in the student body.</li>
-                                <li>Organize and direct workshops and games for beginner, intermediate, and expert players.</li>
-                            </ul>
-                            <span class="thumb">Leadership</span>
-                            <span class="thumb">Creativity</span>
-                            <span class="thumb">Public Speaking</span>
-                            <span class="thumb">Resource Management</span>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        <img src="images/line.png" class="img-fluid lineImg">
-      </div>
- 
+       
         <div class="projects" id="projects">
-            <h1 class="titl yellow" >Projects</h1>
-            <br/>
+            <h1 class="titl yellow" >Anastasia's Project Portfolio</h1>
+            <p class="text-center topDes">Independent and team projects created during my time as a computer science student and software development fellow. </br> Click on the categories in the nav bar
+                to see different types of projects or just scroll down to explore all projects. Make sure to click on project images to learn more!
+            </p>
+            <!-- <ul class="nav justify-content-center projnav">
+                <li class="nav-item">
+                  <a class="nav-link projnavlink" href="#uiux">UI/UX Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link projnavlink" href="#logodesign">Logo Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link projnavlink" href="#softdevproj">Software Projects</a>
+                </li>
+              </ul> -->
+           
+          
+
+            
+            
+
             <div class="container"> 
-                <div class="row">
+                <img src="images/line.png" class="img-fluid lineImg">
+                   <h2 class="text-center projtitle" id="uiux"> UI/UX</h2>
+                   
+                <div class="row projs">
                     <div class="col-5 hopMath">
-                        <img src="./images/proj1.png" class="img-fluid projImg">
-                        <a href="https://devpost.com/software/hopmath" target="_blank" class="noDecor">
+                    </br>
+                        <img src="./images/poppopLegend.png" class="img-fluid projImg">
+                        <a href="https://www.figma.com/proto/2uFcbpNWo2PoNsTg5APMqn/HCI_Neurodivergence_Game?node-id=2%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A2" target="_blank" class="noDecor">
                             <div class="overlay1">
-                                <div class="text">Learn More</div>
+                                <div class="text view">View Figma Prototype</div>
                             </div>
                         </a>
 
                     </div>
-                    <div class="col-7">
-                        <h3>hopMath</h3>
-                        <p class="projDes">Collaborated with a partner to build an 
-                            application that implemented games to help 
-                            students learn algebra disciplines.  Developed 
-                            the user interface using Java and Java AWT API 
-                            to create the welcome page and interactive game 
-                            components such as changing graphics, in-game messages,
-                            and enterable answer boxes. Created in-game graphics using
-                            Adobe Illustrator. </p>
-                        <b> Awards : </b>
-                        <p>Hack Brooklyn 2021 : First Place in the Education Track </p>
+                    <div class="col-7 ">
+                        <h3>Neurodiversity and Software Development</h3>
+                        <p class="projDes">Semester-long solo honors project for Human-Computer Interaction course. Researched the effect of Dyslexia and ADHD on the usability of computer software to develop a prototype game design that teaches software developers 
+                            about accessible programming design and practices. Conducted qualitative and quantitative research by running student interviews, creating and distributing surveys, and talking to subject matter experts. Created the game prototype with the use of Figma. Conducted user testing to receive feedback and alter elements of the original game prototype. </p>
+                       
 
                     </div>
                 </div>
                 <div class="row">
+
                     <div class="col-7 projs ">
                         <h3>SOMNUM - Landing Page</h3>
-                        <p class="projDes">Created a product and built a landing page for it to explore effective UI design.
-                            Used Adobe Illustrator and Photoshop to create logo and product image.
-                            Used HTML/CSS and the Bootstap Framework to create the website.
+                        <p class="projDes"> A day-long exploration of product design and UI prototype creation. Created a product and built the user interface of the landing page to explore effective UI design.
+                            Used Adobe Illustrator and Photoshop to create logo and product images.
+                            Used HTML/CSS and the Bootstrap Framework to create the webpage.
                         </p>
                     </div>
                     <br/>
@@ -258,47 +111,124 @@
                         <img src="./images/proj2.png" class="img-fluid imgSom projImg ">
                         <a href="./Somnum/page.html" class="noDecor" target="_blank" >
                             <div class="overlay2">
-                                <div class="text">View SOMNUM</div>
+                                <div class="text view">View SOMNUM Page</div>
                             </div>
                         </a>
                     </div>
-
+                    <img src="images/line.png" class="img-fluid lineImg">
+                   
+                   
                 </div>
-                <img src="images/line.png" class="img-fluid lineImg">
-            </div>
-            
-        </div>
 
+                <h2 class=" projtitle"> Logos</h2>
+              <div class=" text-center" > 
+                <div class="row" id="logodesign">
+                    
+               
+                </div>
+                
 
-        <div class="graphDesign" id="graphDesign">
-            <h1 class="titl yellow"> Graphic Designs</h1>
-            <p class="text-center"> These are some logos that I made for clubs, organizations, and myself.</p>
-            <div class="container text-center"> 
                 <div class="row">
                     <div class="col-lg-4 ">
                         <img src="./images/CSCLogo.png" class="img-fluid graphImage" width="200" height="200" >
-                        <h5>BC CS Club Logo</h5>
-                        <p>Winning Logo from the BC CS 2020 Logo Contest</p>
+                        <h5 >BC CS Club Logo</h5>
+                        <p class="projDes">Winning Logo from the BC CS 2020 Logo Contest</p>
                     </div>
                     <div class="col-4">
                         <img src="./images/dogWiz.svg" class="img-fluid graphImage" width="200" height="200">
                         <h5>Hack Brooklyn 2021 Logo</h5>
-                        <p>Conceptualized and created for the Hack Brooklyn 2021 Hackathon.</p>
+                        <p class="projDes">Conceptualized and created for the Hack Brooklyn 2021 Hackathon.</p>
                     </div>
                     <div class="col-4">
                         <img src="./images/logograph.png" class="img-fluid graphImage" width="200" height="200">
                         <h5>Personal Logo</h5>
-                        <p>Created for personal use. You can see it used in this website.</p>
+                    <p class="projDes">Created for personal use. You can see it used in this webpage!</p>
                     </div>
                 </div> 
+                
                 </div> 
+                
+            
+       
                 <img src="images/line.png" class="img-fluid lineImg">
+            
+                <h2 class="text-center projtitle" id="softdevproj"> Software Development</h2>
+                <div class="row">
+                    <div class="col-7 projs ">
+                        <h3>weBuilder</h3>
+                        <p class="projDes"> Collaborated in a team of 3 over 3 months to identify a market need, identify competitors, create a software web product, and implement it through full-stack web development. Developed the user interface using React, Node.js, and Bootstrap framework to allow users to create and customize their technical portfolio websites. 
+                        </p>
+                    </div>
+                    <br/>
+                    <div class="col-5 projs somnum">
+                        <img src="./images/weBuilder.png" class="img-fluid imgSom projImg ">
+                        <a href="https://github.com/llyu0966/webuilder-backend" class="noDecor" target="_blank" >
+                            <div class="overlay2">
+                                <div class="text view">View Repository</div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="row projs">
+                    <div class="col-5 hopMath">
+                        <img src="./images/rex.png" class="img-fluid projImg">
+                        <a href="https://agusenkov.itch.io/virdis-rex-final" target="_blank" class="noDecor">
+                            <div class="overlay1">
+                                <div class="text view">View Game</div>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-7 ">
+                        <h3>Virdis Rex</h3>
+                        <p class="projDes">Developed a platformer/story-telling game aimed at teaching players about sustainability with the use of C# and the Unity game engine. Implemented sprite movement and animations, game controls, scene movement, persistent data, and pause capabilities. Created the game environment with the use of public sprites and assets. </p>
+                       
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-7 projs ">
+                        <h3>hopMath</h3>
+                        <p class="projDes"> 
+
+                            Collaborated with a partner to build an 
+                            application over 48 hours that implemented games to help 
+                            students learn algebra disciplines.  Developed 
+                            the user interface using Java and Java AWT API 
+                            to create the welcome page and interactive game 
+                            components such as changing graphics, in-game messages,
+                            and enterable answer boxes. Created in-game graphics using
+                            Adobe Illustrator.
+                        </p>
+                         <b class="projDes"> Awards : </b>
+                        <p class="projDes">Hack Brooklyn 2021 : First Place in the Education Track </p>
+                    </div>
+                    <br/>
+                    <div class="col-5 projs somnum">
+                        <img src="./images/proj1.png" class="img-fluid imgSom projImg ">
+                        <a href="https://devpost.com/software/hopmath" class="noDecor" target="_blank" >
+                            <div class="overlay2">
+                                <div class="text view">View Page</div>
+                            </div>
+                        </a>
+                    </div>
+                     <img src="images/line.png" class="img-fluid lineImg lastline">
+
             </div>
+                </div>
+          
+                
+
+            
         </div>
 
-        <footer>
-            <p class="goodbye">thank you for stopping by</p>
-        </footer>
+        
+
+
+      
 
     </body>
 </html>
