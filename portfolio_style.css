@@ -5,9 +5,7 @@ nav{
 body{
     background-color: rgb(34, 34, 33) ;
 }
-.yellow:hover{
-    color : rgb(204, 166, 255);
-}
+
 
 .intro{
     padding-bottom: 4em;
@@ -48,8 +46,16 @@ h3{
     padding-bottom: .5em;
     color: rgb(171, 234, 253);
 }
+h5{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: rgb(171, 234, 253);
+}
 .titl{
     text-align: center;
+     color: rgb(171, 234, 253);
+     font-size: 4em;
+     padding-top: 1.6em;
 }
 
 .schoolT{
@@ -70,18 +76,19 @@ h3{
 .edu{
     font-size: 1.1em;
 }
-.projects, .projs, .graphDesign{
-    padding-top: 3em;
+.projs{
+    padding-bottom: 2em; 
 }
 
 .projDes{
     font-size: 1.2em;
+    color: rgb(233, 232, 232);
 }
 .overlay2, .overlay1{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: rgba(241, 198, 241, 0.75);
+    background-color: rgba(54, 75, 81, 0.75); 
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -122,6 +129,12 @@ h3{
 .noDecor:active {
     text-decoration: none;
   }
+ .view{
+    color: rgb(255, 255, 255);
+ } 
+ .view:hover{
+    color: rgb(171, 234, 253);
+ }
 
 footer{
     padding-top: 2em;
@@ -135,4 +148,31 @@ footer{
     border-width: 1px;
     border-radius:25px;
     padding:.5em;
+}
+
+.projnavlink{
+    padding-top: 1em;
+    color: rgba(241, 198, 241);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.projnavlink:hover{
+    color: rgb(255, 248, 124);
+}
+.topDes{
+    font-size: 1em;
+    color: rgb(233, 232, 232);
+}
+.projtitle{
+    color: rgb(233, 232, 232);
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    text-align: center !important;
+    align-content: center !important;
+  
+}
+.lastline{
+    padding-bottom: 3em;
 }
